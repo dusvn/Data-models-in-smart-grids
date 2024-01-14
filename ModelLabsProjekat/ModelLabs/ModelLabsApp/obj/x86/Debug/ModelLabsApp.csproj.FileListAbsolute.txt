@@ -28,3 +28,14 @@ D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\ModelLabsApp\obj\x86\D
 D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\ModelLabsApp\obj\x86\Debug\ModelLabsApp.Properties.Resources.resources
 D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\ModelLabsApp\obj\x86\Debug\GenerateResource.read.1.tlog
 D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\ModelLabsApp\obj\x86\Debug\GenerateResource.write.1.tlog
+\\Mac\Home\Desktop\Data-models-in-smart-grids\ModelLabsProjekat\ModelLabs\bin\ModelLabsApp.exe.config
+\\Mac\Home\Desktop\Data-models-in-smart-grids\ModelLabsProjekat\ModelLabs\bin\ModelLabsApp.exe
+\\Mac\Home\Desktop\Data-models-in-smart-grids\ModelLabsProjekat\ModelLabs\bin\ModelLabsApp.pdb
+\\Mac\Home\Desktop\Data-models-in-smart-grids\ModelLabsProjekat\ModelLabs\ModelLabsApp\obj\x86\Debug\ModelLabsApp.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\Data-models-in-smart-grids\ModelLabsProjekat\ModelLabs\ModelLabsApp\obj\x86\Debug\ModelLabsApp.ModelLabsAppForm.resources
+\\Mac\Home\Desktop\Data-models-in-smart-grids\ModelLabsProjekat\ModelLabs\ModelLabsApp\obj\x86\Debug\ModelLabsApp.Properties.Resources.resources
+\\Mac\Home\Desktop\Data-models-in-smart-grids\ModelLabsProjekat\ModelLabs\ModelLabsApp\obj\x86\Debug\ModelLabsApp.csproj.GenerateResource.cache
+\\Mac\Home\Desktop\Data-models-in-smart-grids\ModelLabsProjekat\ModelLabs\ModelLabsApp\obj\x86\Debug\ModelLabsApp.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\Data-models-in-smart-grids\ModelLabsProjekat\ModelLabs\ModelLabsApp\obj\x86\Debug\ModelLabsApp.csproj.CopyComplete
+\\Mac\Home\Desktop\Data-models-in-smart-grids\ModelLabsProjekat\ModelLabs\ModelLabsApp\obj\x86\Debug\ModelLabsApp.exe
+\\Mac\Home\Desktop\Data-models-in-smart-grids\ModelLabsProjekat\ModelLabs\ModelLabsApp\obj\x86\Debug\ModelLabsApp.pdb
