@@ -1,1 +1,1 @@
-![alt text](https://github.com/[dusvn]/[Data-models-in-smart-grids]/blob/[main]/40.png?raw=true)
+![alt text](https://github.com/[dusvn]/[Data-models-in-smart-grids]/blob/[main]/FTN_40.png?raw=true)
