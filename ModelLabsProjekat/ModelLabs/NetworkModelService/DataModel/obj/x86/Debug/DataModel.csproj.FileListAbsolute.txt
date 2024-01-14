@@ -33,3 +33,10 @@ D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\bin\FTN.DataModel.pdb
 D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\NetworkModelService\DataModel\obj\x86\Debug\ResolveAssemblyReference.cache
 D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\NetworkModelService\DataModel\obj\x86\Debug\FTN.DataModel.dll
 D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\NetworkModelService\DataModel\obj\x86\Debug\FTN.DataModel.pdb
+\\Mac\Home\Desktop\Data-models-in-smart-grids\ModelLabsProjekat\ModelLabs\bin\FTN.DataModel.dll
+\\Mac\Home\Desktop\Data-models-in-smart-grids\ModelLabsProjekat\ModelLabs\bin\FTN.DataModel.pdb
+\\Mac\Home\Desktop\Data-models-in-smart-grids\ModelLabsProjekat\ModelLabs\NetworkModelService\DataModel\obj\x86\Debug\DataModel.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\Data-models-in-smart-grids\ModelLabsProjekat\ModelLabs\NetworkModelService\DataModel\obj\x86\Debug\DataModel.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\Data-models-in-smart-grids\ModelLabsProjekat\ModelLabs\NetworkModelService\DataModel\obj\x86\Debug\DataModel.csproj.CopyComplete
+\\Mac\Home\Desktop\Data-models-in-smart-grids\ModelLabsProjekat\ModelLabs\NetworkModelService\DataModel\obj\x86\Debug\FTN.DataModel.dll
+\\Mac\Home\Desktop\Data-models-in-smart-grids\ModelLabsProjekat\ModelLabs\NetworkModelService\DataModel\obj\x86\Debug\FTN.DataModel.pdb
