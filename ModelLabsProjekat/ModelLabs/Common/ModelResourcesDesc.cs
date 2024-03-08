@@ -865,22 +865,28 @@ namespace FTN.Common
 		# region Initialization of metadata
 
 		private void InitializeTypeIdsInInsertOrder()
-		{			
-			typeIdsInInsertOrder.Add(ModelCode.BASEVOLTAGE);
-			typeIdsInInsertOrder.Add(ModelCode.LOCATION);
-			typeIdsInInsertOrder.Add(ModelCode.POWERTR);
-			typeIdsInInsertOrder.Add(ModelCode.POWERTRWINDING);
-			typeIdsInInsertOrder.Add(ModelCode.WINDINGTEST);			
-		}
+		{
+            typeIdsInInsertOrder.Add(ModelCode.REGULATINGCONTROL);
+            typeIdsInInsertOrder.Add(ModelCode.FREQUENCYCONVERTER);
+            typeIdsInInsertOrder.Add(ModelCode.SHUNTCOMPENSATOR);
+            typeIdsInInsertOrder.Add(ModelCode.STATICVARCOMPENSATOR);
+            typeIdsInInsertOrder.Add(ModelCode.TERMINAL);
+            typeIdsInInsertOrder.Add(ModelCode.CONTROL);
+            typeIdsInInsertOrder.Add(ModelCode.REACTIVECAPABILITYCURVE);
+            typeIdsInInsertOrder.Add(ModelCode.SYNCHRONOUSMACHINE);
+            typeIdsInInsertOrder.Add(ModelCode.CURVEDATA);
 
-		private void InitializeNotSettablePropertyIds()
-		{			
-			notSettablePropertyIds.Add(ModelCode.IDOBJ_GID);
-			notSettablePropertyIds.Add(ModelCode.BASEVOLTAGE_CONDEQS);
-			notSettablePropertyIds.Add(ModelCode.LOCATION_PSRS);
-			notSettablePropertyIds.Add(ModelCode.POWERTRWINDING_TESTS);
-            notSettablePropertyIds.Add(ModelCode.POWERTR_WINDINGS);	
-		}
+        }
+
+        private void InitializeNotSettablePropertyIds()
+		{
+            notSettablePropertyIds.Add(ModelCode.IDOBJ_GID);
+			notSettablePropertyIds.Add(ModelCode.REGULATINGCONDUCTINGEQUIPMENT_CONTROLS);
+			notSettablePropertyIds.Add(ModelCode.REGULATINGCONTROL_REGULATINGCONDUCTINGEQUIPMENTS);
+			notSettablePropertyIds.Add(ModelCode.CONDUCTINGEQUIPMENT_TERMINALS);
+			notSettablePropertyIds.Add(ModelCode.REACTIVECAPABILITYCURVE_SYNCHRONOUSMACHINES);
+			notSettablePropertyIds.Add(ModelCode.CURVE_CURVEDATAS);
+        }
 	
 		# endregion Initialization of metadata
 

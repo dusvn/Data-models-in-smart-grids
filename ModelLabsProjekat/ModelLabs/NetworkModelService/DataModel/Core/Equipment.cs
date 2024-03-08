@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.IO;
 using System.Linq;
 using System.Runtime.Serialization;
@@ -10,47 +11,34 @@ using FTN.Common;
 namespace FTN.Services.NetworkModelService.DataModel.Core
 {
 	public class Equipment : PowerSystemResource
-	{		
-		private bool isUnderground;
-		private bool isPrivate;
+	{
+		private bool aggregate;
+		private bool normallyInService; 
+
+		public bool Aggregate
+		{
+			get { return aggregate; }
+			set { aggregate = value; }
+		}
+
+		public bool NormallyInService
+		{
+			get { return normallyInService; }
+			set { normallyInService = value; }
+		}
 						
 		public Equipment(long globalId) : base(globalId) 
 		{
 		}
 	
-		public bool IsUnderground
-		{
-			get
-			{
-				return isUnderground;
-			}
-
-			set
-			{
-				isUnderground = value;
-			}
-		}
-
-		public bool IsPrivate
-		{
-			get 
-			{
-				return isPrivate; 
-			}
-			
-			set
-			{ 
-				isPrivate = value; 
-			}
-		}
 
 		public override bool Equals(object obj)
 		{
 			if (base.Equals(obj))
 			{
 				Equipment x = (Equipment)obj;
-				return ((x.isUnderground == this.isUnderground) &&
-						(x.isPrivate == this.isPrivate));
+				return ((x.aggregate == this.aggregate) &&
+						(x.normallyInService == this.normallyInService));
 			}
 			else
 			{
@@ -69,8 +57,8 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
 		{
 			switch (property)
 			{
-				case ModelCode.EQUIPMENT_ISUNDERGROUND:
-				case ModelCode.EQUIPMENT_ISPRIVATE:
+				case ModelCode.EQUIPMENT_AGGREGATE:
+				case ModelCode.EQUIPMENT_NORMALLYINSERVICE:
 		
 					return true;
 				default:
@@ -82,12 +70,12 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
 		{
 			switch (property.Id)
 			{
-				case ModelCode.EQUIPMENT_ISUNDERGROUND:
-					property.SetValue(isUnderground);
+				case ModelCode.EQUIPMENT_AGGREGATE:
+					property.SetValue(aggregate);
 					break;
 
-				case ModelCode.EQUIPMENT_ISPRIVATE:
-					property.SetValue(isPrivate);
+				case ModelCode.EQUIPMENT_NORMALLYINSERVICE:
+					property.SetValue(normallyInService);
 					break;			
 
 				default:
@@ -100,12 +88,12 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
 		{
 			switch (property.Id)
 			{
-				case ModelCode.EQUIPMENT_ISUNDERGROUND:					
-					isUnderground = property.AsBool();
+				case ModelCode.EQUIPMENT_AGGREGATE:					
+					aggregate = property.AsBool();
 					break;
 
-				case ModelCode.EQUIPMENT_ISPRIVATE:
-					isPrivate = property.AsBool();
+				case ModelCode.EQUIPMENT_NORMALLYINSERVICE:
+					normallyInService = property.AsBool();
 					break;
 			
 				default:

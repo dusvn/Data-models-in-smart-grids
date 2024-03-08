@@ -3,53 +3,95 @@
 namespace FTN.Common
 {	
 	public enum PhaseCode : short
-	{
-		Unknown = 0x0,
-		N = 0x1,
-		C = 0x2,
-		CN = 0x3,
-		B = 0x4,
-		BN = 0x5,
-		BC = 0x6,
-		BCN = 0x7,
-		A = 0x8,
-		AN = 0x9,
-		AC = 0xA,
+	{	
+		s1 = 0x0,
+		s1N = 0x1,
+		s2N = 0x2,
+		ABC = 0x3,
+		A = 0x4,
+		BC = 0x5,
+		AC = 0x6,
+		B =0x7,
+		AB = 0x8,
+		s2 = 0x9,
+		ABN = 0xA,
 		ACN = 0xB,
-		AB = 0xC,
-		ABN = 0xD,
-		ABC = 0xE,
-		ABCN = 0xF
+		C = 0xC,
+		s12 = 0xD,
+		s12N = 0xE,
+		N = 0xF,
+		BCN = 0x10,
+		ABCN = 0x11,
+		BN = 0x12,
+		AN = 0x13,
+		CN = 0x14
+		
 	}
 	
-	public enum TransformerFunction : short
+	public enum RegulatingControlModeKind : short
 	{
-		Supply = 1,				// Supply transformer
-		Consumer = 2,			// Transformer supplying a consumer
-		Grounding = 3,			// Transformer used only for grounding of network neutral
-		Voltreg = 4,			// Feeder voltage regulator
-		Step = 5,				// Step
-		Generator = 6,			// Step-up transformer next to a generator.
-		Transmission = 7,		// HV/HV transformer within transmission network.
-		Interconnection = 8		// HV/HV transformer linking transmission network with other transmission networks.
-	}
-	
-	public enum WindingConnection : short
-	{
-		Y = 1,		// Wye
-		D = 2,		// Delta
-		Z = 3,		// ZigZag
-		I = 4,		// Single-phase connection. Phase-to-phase or phase-to-ground is determined by elements' phase attribute.
-		Scott = 5,   // Scott T-connection. The primary winding is 2-phase, split in 8.66:1 ratio
-		OY = 6,		// 2-phase open wye. Not used in Network Model, only as result of Topology Analysis.
-		OD = 7		// 2-phase open delta. Not used in Network Model, only as result of Topology Analysis.
-	}
+        reactivePower = 0x0,
+        powerFactor = 0x1,
+        activePower = 0x2,
+        temperature = 0x3,
+        voltage = 0x4,
+		@fixed = 0x5,
+        timeScheduled = 0x6,
+        admittance = 0x7,
+        currentFlow = 0x8,
+    }
 
-	public enum WindingType : short
+	public enum CurveStyle : short
 	{
-		None = 0,
-		Primary = 1,
-		Secondary = 2,
-		Tertiary = 3
-	}			
+        formula = 0x0,
+        constantYValue = 0x1,
+        straightLineYValues = 0x2,
+        rampYValue = 0x3,
+    }
+
+	public enum UnitMultiplier : short
+	{
+        none = 0x0,
+		m = 0x1,
+		G = 0x2,
+		n = 0x3,
+		d = 0x4,
+		k = 0x5,
+		c = 0x6,
+		T = 0x7,
+		M = 0x8,
+		micro = 0x9,
+		p = 0xA,
+    }
+
+	public enum UnitSymbol : short
+	{
+		A = 0x0,
+		J = 0x1,
+		Hz = 0x2,
+		ohm = 0x3,
+		deg = 0x4,
+		Wh = 0x5,
+		S = 0x6,
+		VAr = 0x7,
+		m =	0x8,
+		VA = 0x9,
+		VAh = 0xA, 
+		H = 0xB,
+		N = 0xC,
+		Pa = 0xD,
+		h = 0xE,
+		V = 0xF,
+		g = 0x10,
+		none = 0x11,
+		W = 0x12,
+		rad = 0x13, 
+		VArh = 0x14,
+		m3 = 0x15,
+		degC = 0x16, 
+		F = 0x17, 
+		s = 0x18,
+		min = 0x19, 
+		m2 = 0x1A,
+	}
 }

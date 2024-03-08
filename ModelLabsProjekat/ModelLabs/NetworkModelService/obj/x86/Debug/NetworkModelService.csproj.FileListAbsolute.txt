@@ -13,10 +13,10 @@ D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\bin\FTN.Services.Netwo
 D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\NetworkModelService\obj\x86\Debug\ResolveAssemblyReference.cache
 D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\NetworkModelService\obj\x86\Debug\FTN.Services.NetworkModelService.dll
 D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\NetworkModelService\obj\x86\Debug\FTN.Services.NetworkModelService.pdb
-\\Mac\Home\Desktop\Data-models-in-smart-grids\ModelLabsProjekat\ModelLabs\bin\FTN.Services.NetworkModelService.dll
-\\Mac\Home\Desktop\Data-models-in-smart-grids\ModelLabsProjekat\ModelLabs\bin\FTN.Services.NetworkModelService.pdb
-\\Mac\Home\Desktop\Data-models-in-smart-grids\ModelLabsProjekat\ModelLabs\NetworkModelService\obj\x86\Debug\NetworkModelService.csproj.AssemblyReference.cache
-\\Mac\Home\Desktop\Data-models-in-smart-grids\ModelLabsProjekat\ModelLabs\NetworkModelService\obj\x86\Debug\NetworkModelService.csproj.CoreCompileInputs.cache
-\\Mac\Home\Desktop\Data-models-in-smart-grids\ModelLabsProjekat\ModelLabs\NetworkModelService\obj\x86\Debug\NetworkModelService.csproj.CopyComplete
-\\Mac\Home\Desktop\Data-models-in-smart-grids\ModelLabsProjekat\ModelLabs\NetworkModelService\obj\x86\Debug\FTN.Services.NetworkModelService.dll
-\\Mac\Home\Desktop\Data-models-in-smart-grids\ModelLabsProjekat\ModelLabs\NetworkModelService\obj\x86\Debug\FTN.Services.NetworkModelService.pdb
+\\Mac\Home\Desktop\ModelLabsProjekat\ModelLabs\bin\FTN.Services.NetworkModelService.dll
+\\Mac\Home\Desktop\ModelLabsProjekat\ModelLabs\bin\FTN.Services.NetworkModelService.pdb
+\\Mac\Home\Desktop\ModelLabsProjekat\ModelLabs\NetworkModelService\obj\x86\Debug\NetworkModelService.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\ModelLabsProjekat\ModelLabs\NetworkModelService\obj\x86\Debug\NetworkModelService.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\ModelLabsProjekat\ModelLabs\NetworkModelService\obj\x86\Debug\NetworkModelService.csproj.CopyComplete
+\\Mac\Home\Desktop\ModelLabsProjekat\ModelLabs\NetworkModelService\obj\x86\Debug\FTN.Services.NetworkModelService.dll
+\\Mac\Home\Desktop\ModelLabsProjekat\ModelLabs\NetworkModelService\obj\x86\Debug\FTN.Services.NetworkModelService.pdb

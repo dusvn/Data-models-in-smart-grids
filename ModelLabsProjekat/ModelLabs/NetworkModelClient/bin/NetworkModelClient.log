@@ -1,0 +1,38 @@
+2/26/2024 12:33:20 AM : GetAllResources method started
+2/26/2024 12:33:22 AM : GetAllResources method failed: IteratorNext failed. Iterator ID = 7. Resources to fetch count = 1000. Failed to get next set of ResourceDescription iterators. Failed to get values for entity with GID = 0x0000000700000006. Unknown property id = CURVE_XUNIT for entity (GID = 0x0000000700000006). 
+2/26/2024 12:34:54 AM : GetAllResources method started
+2/26/2024 12:34:55 AM : GetAllResources method failed: IteratorNext failed. Iterator ID = 14. Resources to fetch count = 1000. Failed to get next set of ResourceDescription iterators. Failed to get values for entity with GID = 0x0000000700000006. Unknown property id = CURVE_XUNIT for entity (GID = 0x0000000700000006). 
+2/26/2024 12:37:21 AM : GetAllResources method started
+2/26/2024 12:37:22 AM : GetAllResources method failed: IteratorNext failed. Iterator ID = 7. Resources to fetch count = 1000. Failed to get next set of ResourceDescription iterators. Failed to get values for entity with GID = 0x0000000700000001. Unknown property id = CURVE_XUNIT for entity (GID = 0x0000000700000001). 
+2/26/2024 12:38:34 AM : GetAllResources method started
+2/26/2024 12:38:34 AM : GetAllResources method failed: IteratorNext failed. Iterator ID = 14. Resources to fetch count = 1000. Failed to get next set of ResourceDescription iterators. Failed to get values for entity with GID = 0x0000000700000001. Unknown property id = CURVE_XUNIT for entity (GID = 0x0000000700000001). 
+2/26/2024 12:40:41 AM : GetAllResources method started
+2/26/2024 12:40:43 AM : GetAllResources method failed: IteratorNext failed. Iterator ID = 21. Resources to fetch count = 8. Failed to get next set of ResourceDescription iterators. Failed to get values for entity with GID = 0x0000000700000001. Unknown property id = CURVE_XUNIT for entity (GID = 0x0000000700000001). 
+2/26/2024 12:41:20 AM : GetAllResources method started
+2/26/2024 12:41:22 AM : GetAllResources method failed: IteratorNext failed. Iterator ID = 28. Resources to fetch count = 2. Failed to get next set of ResourceDescription iterators. Failed to get values for entity with GID = 0x0000000700000001. Unknown property id = CURVE_XUNIT for entity (GID = 0x0000000700000001). 
+2/26/2024 6:16:45 PM : GetAllResources method started
+2/26/2024 6:16:47 PM : GetAllResources method failed: IteratorNext failed. Iterator ID = 7. Resources to fetch count = 2. Failed to get next set of ResourceDescription iterators. Failed to get values for entity with GID = 0x0000000700000001. Unknown property id = CURVE_XUNIT for entity (GID = 0x0000000700000001). 
+2/26/2024 6:48:22 PM : GetAllResources method started
+2/26/2024 6:48:24 PM : GetAllResources method failed: IteratorNext failed. Iterator ID = 7. Resources to fetch count = 2. Failed to get next set of ResourceDescription iterators. Failed to get values for entity with GID = 0x0000000700000001. Unknown property id = CURVE_XUNIT for entity (GID = 0x0000000700000001). 
+2/26/2024 6:58:06 PM : GetAllResources method started
+2/26/2024 6:58:08 PM : GetAllResources method failed: IteratorNext failed. Iterator ID = 14. Resources to fetch count = 1. Failed to get next set of ResourceDescription iterators. Failed to get values for entity with GID = 0x0000000700000001. Unknown property id = CURVE_XUNIT for entity (GID = 0x0000000700000001). 
+2/26/2024 7:01:38 PM : GetAllResources method started
+2/26/2024 7:01:39 PM : GetAllResources method failed: IteratorNext failed. Iterator ID = 21. Resources to fetch count = 9. Failed to get next set of ResourceDescription iterators. Failed to get values for entity with GID = 0x0000000700000001. Unknown property id = CURVE_XUNIT for entity (GID = 0x0000000700000001). 
+2/26/2024 7:23:10 PM : GetAllResources method started
+2/26/2024 7:23:11 PM : GetAllResources method failed: IteratorNext failed. Iterator ID = 28. Resources to fetch count = 9. Failed to get next set of ResourceDescription iterators. Failed to get values for entity with GID = 0x0000000700000001. Unknown property id = CURVE_XUNIT for entity (GID = 0x0000000700000001). 
+2/26/2024 7:23:40 PM : GetAllResources method started
+2/26/2024 7:23:42 PM : GetAllResources method failed: IteratorNext failed. Iterator ID = 35. Resources to fetch count = 2. Failed to get next set of ResourceDescription iterators. Failed to get values for entity with GID = 0x0000000700000001. Unknown property id = CURVE_XUNIT for entity (GID = 0x0000000700000001). 
+2/26/2024 7:33:24 PM : GetAllResources method started
+2/26/2024 7:33:26 PM : GetAllResources method failed: IteratorNext failed. Iterator ID = 42. Resources to fetch count = 1000. Failed to get next set of ResourceDescription iterators. Failed to get values for entity with GID = 0x0000000700000001. Unknown property id = CURVE_XUNIT for entity (GID = 0x0000000700000001). 
+2/26/2024 7:34:11 PM : GetAllResources method started
+2/26/2024 7:34:12 PM : GetAllResources method successfully ended
+2/26/2024 7:37:25 PM : GetAllResources method started
+2/26/2024 7:37:26 PM : GetAllResources method successfully ended
+2/26/2024 8:03:04 PM : GetAllResources method started
+2/26/2024 8:03:06 PM : GetAllResources method failed: IteratorNext failed. Iterator ID = 67. Resources to fetch count = 1000. Failed to get next set of ResourceDescription iterators. Failed to get values for entity with GID = 0x0000000700000001. Unknown property id = CURVE_XUNIT for entity (GID = 0x0000000700000001). 
+2/26/2024 9:38:46 PM : GetAllResources method started
+2/26/2024 9:38:48 PM : GetAllResources method successfully ended
+2/27/2024 10:11:45 PM : GetAllResources method started
+2/27/2024 10:11:47 PM : GetAllResources method successfully ended
+2/27/2024 10:12:39 PM : GetAllResources method started
+2/27/2024 10:12:40 PM : GetAllResources method successfully ended

@@ -1,2 +1,22 @@
-1/14/2024 5:11:23 PM : Network Model Service Test Client is up and running...
-1/14/2024 5:11:23 PM : Result directory: ../Results
+2/23/2024 9:32:05 PM : Network Model Service Test Client is up and running...
+2/23/2024 9:32:05 PM : Result directory: ../Results
+2/23/2024 9:32:52 PM : Getting related values method started.
+2/23/2024 9:32:53 PM : Getting related values method  failed for sourceGlobalId = 1 and association (propertyId = 1, type = 1). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+2/23/2024 9:33:11 PM : Getting values method started.
+2/23/2024 9:33:11 PM : Failed to get model type code for DMS type: 0. Invalid DMS type
+2/23/2024 9:33:11 PM : Getting values method for entered id = 1 failed.
+	Failed to get model type code for DMS type: 0. Invalid DMS type
+2/23/2024 9:33:25 PM : Getting values method started.
+2/23/2024 9:33:25 PM : Failed to get model type code for DMS type: 0. Invalid DMS type
+2/23/2024 9:33:25 PM : Getting values method for entered id = 1 failed.
+	Failed to get model type code for DMS type: 0. Invalid DMS type
+2/23/2024 9:33:33 PM : Getting values method started.
+2/23/2024 9:33:33 PM : Failed to get model type code for DMS type: 0. Invalid DMS type
+2/23/2024 9:33:33 PM : Getting values method for entered id = 1 failed.
+	Failed to get model type code for DMS type: 0. Invalid DMS type
+2/25/2024 1:19:17 PM : Network Model Service Test Client is up and running...
+2/25/2024 1:19:17 PM : Result directory: ../Results
+2/26/2024 12:37:09 AM : Network Model Service Test Client is up and running...
+2/26/2024 12:37:09 AM : Result directory: ../Results
+2/29/2024 10:57:52 PM : Network Model Service Test Client is up and running...
+2/29/2024 10:57:52 PM : Result directory: ../Results

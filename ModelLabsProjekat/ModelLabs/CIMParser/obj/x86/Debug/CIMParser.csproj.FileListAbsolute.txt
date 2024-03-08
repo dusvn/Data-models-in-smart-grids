@@ -13,9 +13,9 @@ D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\bin\CIMParser.pdb
 D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\CIMParser\obj\x86\Debug\ResolveAssemblyReference.cache
 D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\CIMParser\obj\x86\Debug\CIMParser.dll
 D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\CIMParser\obj\x86\Debug\CIMParser.pdb
-\\Mac\Home\Desktop\Data-models-in-smart-grids\ModelLabsProjekat\ModelLabs\bin\CIMParser.dll
-\\Mac\Home\Desktop\Data-models-in-smart-grids\ModelLabsProjekat\ModelLabs\bin\CIMParser.pdb
-\\Mac\Home\Desktop\Data-models-in-smart-grids\ModelLabsProjekat\ModelLabs\CIMParser\obj\x86\Debug\CIMParser.csproj.AssemblyReference.cache
-\\Mac\Home\Desktop\Data-models-in-smart-grids\ModelLabsProjekat\ModelLabs\CIMParser\obj\x86\Debug\CIMParser.csproj.CoreCompileInputs.cache
-\\Mac\Home\Desktop\Data-models-in-smart-grids\ModelLabsProjekat\ModelLabs\CIMParser\obj\x86\Debug\CIMParser.dll
-\\Mac\Home\Desktop\Data-models-in-smart-grids\ModelLabsProjekat\ModelLabs\CIMParser\obj\x86\Debug\CIMParser.pdb
+\\Mac\Home\Desktop\ModelLabsProjekat\ModelLabs\bin\CIMParser.dll
+\\Mac\Home\Desktop\ModelLabsProjekat\ModelLabs\bin\CIMParser.pdb
+\\Mac\Home\Desktop\ModelLabsProjekat\ModelLabs\CIMParser\obj\x86\Debug\CIMParser.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\ModelLabsProjekat\ModelLabs\CIMParser\obj\x86\Debug\CIMParser.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\ModelLabsProjekat\ModelLabs\CIMParser\obj\x86\Debug\CIMParser.dll
+\\Mac\Home\Desktop\ModelLabsProjekat\ModelLabs\CIMParser\obj\x86\Debug\CIMParser.pdb

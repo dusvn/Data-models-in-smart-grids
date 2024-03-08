@@ -1,0 +1,87 @@
+﻿<delta id="0">
+  <operations>
+    <operation type="insert">
+      <ResourceDescriptions count="9">
+        <ResourceDescription>
+          <id gid="0x00000004ffffffff" type="REGULATINGCONTROL" />
+          <Properties>
+            <Property id="REGULATINGCONTROL_DISCRETE" value="1" />
+            <Property id="REGULATINGCONTROL_MODE" value="activePower" />
+            <Property id="REGULATINGCONTROL_MONITOREDPHASE" value="10" />
+            <Property id="REGULATINGCONTROL_TARGETRANGE" value="1.1" />
+            <Property id="REGULATINGCONTROL_TARGETVALUE" value="1.4" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000001ffffffff" type="FREQUENCYCONVERTER" />
+          <Properties>
+            <Property id="EQUIPMENT_AGGREGATE" value="1" />
+            <Property id="EQUIPMENT_NORMALLYINSERVICE" value="1" />
+            <Property id="REGULATINGCONDUCTINGEQUIPMENT_REGULATINGCONTROL" value="0x00000004ffffffff" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000002ffffffff" type="SHUNTCOMPENSATOR" />
+          <Properties>
+            <Property id="EQUIPMENT_AGGREGATE" value="1" />
+            <Property id="EQUIPMENT_NORMALLYINSERVICE" value="1" />
+            <Property id="REGULATINGCONDUCTINGEQUIPMENT_REGULATINGCONTROL" value="0x00000004ffffffff" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000003ffffffff" type="STATICVARCOMPENSATOR" />
+          <Properties>
+            <Property id="EQUIPMENT_AGGREGATE" value="1" />
+            <Property id="EQUIPMENT_NORMALLYINSERVICE" value="1" />
+            <Property id="REGULATINGCONDUCTINGEQUIPMENT_REGULATINGCONTROL" value="0x00000004ffffffff" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000006ffffffff" type="TERMINAL" />
+          <Properties>
+            <Property id="TERMINAL_CONDUCTINGEQUIPMENT" value="0x00000001ffffffff" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000005ffffffff" type="CONTROL" />
+          <Properties>
+            <Property id="CONTROL_REGULATINGCONDEQUIPMENT" value="0x00000001ffffffff" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000007ffffffff" type="REACTIVECAPABILITYCURVE" />
+          <Properties>
+            <Property id="CURVE_CURVESTYLE" value="constantYValue" />
+            <Property id="CURVE_XMULTIPLIER" value="c" />
+            <Property id="CURVE_XUNIT" value="A" />
+            <Property id="CURVE_Y1MULTIPLIER" value="c" />
+            <Property id="CURVE_Y1UNIT" value="A" />
+            <Property id="CURVE_Y2MULTIPLIER" value="c" />
+            <Property id="CURVE_Y2UNIT" value="A" />
+            <Property id="CURVE_Y3MULTIPLIER" value="c" />
+            <Property id="CURVE_Y3UNIT" value="A" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000008ffffffff" type="SYNCHRONOUSMACHINE" />
+          <Properties>
+            <Property id="EQUIPMENT_AGGREGATE" value="1" />
+            <Property id="EQUIPMENT_NORMALLYINSERVICE" value="1" />
+            <Property id="REGULATINGCONDUCTINGEQUIPMENT_REGULATINGCONTROL" value="0x00000004ffffffff" />
+            <Property id="SYNCHRONOUSMACHINE_REACTIVECAPABILITYCURVE" value="0x00000007ffffffff" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000009ffffffff" type="CURVEDATA" />
+          <Properties>
+            <Property id="CURVEDATA_XVALUE" value="1.1" />
+            <Property id="CURVEDATA_Y1VALUE" value="1.1" />
+            <Property id="CURVEDATA_Y2VALUE" value="1.1" />
+            <Property id="CURVEDATA_Y3VALUE" value="1.1" />
+            <Property id="CURVEDATA_CURVE" value="0x00000007ffffffff" />
+          </Properties>
+        </ResourceDescription>
+      </ResourceDescriptions>
+    </operation>
+  </operations>
+</delta>
